@@ -1,0 +1,33 @@
+@import 'header.scss';
+@import 'content.scss';
+@import 'fonts.scss';
+@import 'popup.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Whitney';
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.active {
+  display: flex;
+}
+
+.button-reg {
+  font-size: 18px;
+  font-weight: 500;
+  padding: 16px 60px;
+  background-color: #f25b24;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+
+  &:active {
+    background-color: darken(#f25b24, 12%);
+    transform: translateY(1px);
+  }
+}

@@ -1,0 +1,1 @@
+(()=>{const e=document.getElementById("login"),t=document.getElementById("close"),n=document.getElementById("popup");function c(){n.classList.toggle("active")}e.addEventListener("click",c),t.addEventListener("click",c),document.addEventListener("click",(function(e){e.target==n&&n.classList.remove("active")})),console.log(n)})();

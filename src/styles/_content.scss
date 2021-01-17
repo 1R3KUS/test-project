@@ -1,0 +1,69 @@
+@import 'colors.scss';
+
+.content {
+  width: 100%;
+  padding: 130px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #000;
+
+  &__title {
+    margin-bottom: 50px;
+
+    h1 {
+      font-size: 40px;
+      font-weight: 500;
+      color: $hcolor;
+    }
+  }
+
+  &__cards {
+    max-width: 1100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 130px;
+  }
+
+  .card {
+    display: flex;
+    align-items: center;
+    background-color: #f6f5f9;
+    padding: 0 0 0 40px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+
+    &__title {
+      width: 260px;
+      h1 {
+        font-size: 22px;
+        font-weight: 500;
+        color: $hcolor;
+        margin-bottom: 15px;
+      }
+
+      p {
+        font-size: 15px;
+        font-weight: 400;
+        color: $pcolor;
+      }
+    }
+  }
+
+  &__footer {
+    min-width: 1100px;
+    color: #fff;
+    background: url(../img/cont-footer-bg.png) #4e33b5;
+    background-repeat: no-repeat;
+    background-position: right;
+    border-radius: 10px;
+    padding: 70px;
+
+    h1 {
+      font-size: 34px;
+      font-weight: 500;
+      margin-bottom: 45px;
+    }
+  }
+}
